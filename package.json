@@ -1,0 +1,51 @@
+{
+  "name": "kdel",
+  "version": "1.0.0",
+  "description": "Uses one or more keys to locate and delete a value in a Map, Object, or other collection. Supports nesting, loose key matching, recursive deletion, and more.",
+  "keywords": [
+    "delete",
+    "remove",
+    "nested",
+    "key",
+    "chain",
+    "value",
+    "collection",
+    "array",
+    "map",
+    "object",
+    "set",
+    "WeakMap"
+  ],
+  "author": "John Lamansky",
+  "license": "MIT",
+  "homepage": "https://github.com/lamansky/kdel",
+  "repository": "lamansky/kdel",
+  "main": "index.js",
+  "files": [],
+  "engines": {
+    "node": ">=8.3.0"
+  },
+  "dependencies": {
+    "arrify": "^1.0.1",
+    "can-delete-prop": "^1.0.0",
+    "is-instance-of": "^1.0.1",
+    "is-object": "^1.0.1",
+    "kget": "^1.0.0",
+    "vsize": "^1.0.0",
+    "xfn": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint-config-lamansky": "^1.0.0",
+    "is-array-with": "^1.0.0",
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "eslintConfig": {
+    "extends": "lamansky",
+    "env": {
+      "mocha": true
+    }
+  }
+}
